@@ -1,0 +1,79 @@
+.customer-li {
+  border: 1px solid rgb(200,200,200);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.customer-li-customer {
+  text-align: center;
+  
+  font-weight: bold;
+  background-color: #555;
+  color: white;
+}
+
+.customer-li-metrics {
+  padding: 5px;
+  //font-size: 10px;
+}
+.metric-item {
+  font-size: 12px;
+}
+
+.customer-li-metrics .glyphicon {
+  color: #008aff;
+}
+
+.customer-li-metrics .customer-li-metric-label {
+  color: #555;
+  display: inline-block;
+  width: 110px;
+}
+
+.navbar-fixed-top {
+  background-color: #222222;
+
+}
+.dashbutton {
+  padding-top: 15px;
+  margin-left:10px;
+  border: 1px solid #555555;
+  border-radius: 20px;
+  transition: all linear 200ms;
+  cursor: pointer;
+}
+
+.dashbutton:hover {
+  border: 1px solid #47C3D3;
+  color: #47C3D3;
+}
+
+.dashbutton:hover i {
+  filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.9));
+}
+
+
+.red-tooltip + .tooltip > .tooltip-inner {background-color: #f00;}
+.red-tooltip + .tooltip > .tooltip-arrow { border-bottom-color:#f00; }
+
+
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+
+.tt-open {
+  background-color: white;
+  padding: 5px;
+  border: 1px solid lightblue;
+  box-shadow: 0px 0px 10px 1px rgba(200,200,200,0.5);
+}
+.footer {
+  position: fixed;
+  bottom: 0px;
+  
+}
